@@ -3,5 +3,5 @@ RANDOM=$$
 a=10
 for ((i=0; i<=a; i++))
 do
-  echo "$i""," "$RANDOM"
+  echo "$i""," "$RANDOM" >> inputFile
 done
